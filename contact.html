@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Totem.: Contact</title>
+    <!--
+         Totem contact web page
+         Filename: contact.html
+      
+         Author: P1625765 (Sim Shi Jie Keith)
+         Date: 12 February 2017
+      -->
+    <meta charset="utf-8">
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width">
+    <!-- web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <!-- external style sheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/icons/favicon.ico">
+</head>
+
+<body class="contact">
+    <!-- nav bar -->
+    <header>
+        <h1>
+            <a href="index.html"><img src="images/icons/totemjap.jpg" alt="totemicon"></a>
+         </h1>
+    </header>
+    <nav class="sitenavigation">
+        <div class="navigation-menu-button">
+            <img src="images/menu.png" alt="show navigation">
+        </div>
+        <ul>
+            <li><a class="home" href="index.html">HOME</a></li>
+            <li><a class="shop" href="shop.html">SHOP</a></li>
+            <li><a class="workshop" href="underconstruction.html">WORKSHOP</a></li>
+            <li><a class="showcase" href="showcase.html">SHOWCASE</a></li>
+            <li><a class="about" href="about.html">ABOUT</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <!-- contact page description -->
+        <img src="images/contact/contactbanner.jpg" id="contactbanner" alt="contact banner">
+        <article id="contact">
+            <h2>GET IN TOUCH</h2>
+            <p>Leave any suggestions or questions in the contact form below
+                <br>Check out the about page to know more about us!
+                <br>Alternatively we are contactable at totemu.design@gmail.com
+                <br>You can also complete a short feedback about the website at the bottom of the page.</p>
+            <!-- contact us form -->
+            <form action="results.html">
+                <!-- contact information box -->
+                <fieldset class="contactinfo">
+                    <legend>Contact Information</legend>
+                    <label for="nameinput" id="name1">
+                        Name
+                        <input required type="text" name="name" id="nameinput" placeholder="First and last name">
+                    </label>
+                    <label for="emailinput" id="email1">
+                        Email
+                        <input required type="email" name="email" id="emailinput" placeholder="address@example.com">
+                    </label>
+                </fieldset>
+                <!-- suggestions or questions box -->
+                <fieldset class=suggestquestion>
+                    <legend>Suggestions or Questions</legend>
+                    <label for="subjectinput">
+                        Subject
+                        <input required type="text" name="subject" id="subjectinput">
+                    </label>
+                    <br>
+                    <label for="feedback">
+                        <textarea name="feedback" id="feedback" rows="10">
+                        </textarea>
+                    </label>
+                </fieldset>
+                <!-- submit button -->
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </article>
+        <!-- footer bar -->
+        <footer>
+            <figure class="col1" id="footericon">
+                <a href="index.html"><img src="images/footer2.jpg" id="footerlogo" alt="footer logo"></a>
+            </figure>
+            <article class="col1">
+                <h2 class="footerbottom">Also on TOTEM.</h2>
+                <a href="index.html" class="alsoon firsticon home">HOME</a>
+                <a href="contact.html" class="alsoon contact">CONTACT</a>
+                <a href="https://goo.gl/forms/05lJKj7jDy2lDF0o1" target="_blank" class="alsoon">FEEDBACK</a>
+                <h2 class="footerbottom">Follow TOTEM.</h2>
+                <a href="mailto:totemu.design@gmail.com" target="_blank"><img src="images/icons/email.png" class="iconsbottom firsticon" alt="email icon"></a>
+                <a href="http://www.instagram.com/" target="_blank"><img src="images/icons/instagram.png" class="iconsbottom" alt="instagram icon"></a>
+                <a href="http://www.twitter.com/" target="_blank"><img src="images/icons/twitter%20(1).png" class="iconsbottom" alt="twitter icon"></a>
+                <a href="http://www.facebook.com/" target="_blank"><img src="images/icons/facebook.png" class="iconsbottom" alt="facebook icon"></a>
+                <a href="https://plus.google.com/" target="_blank"><img src="images/icons/google-plus.png" class="iconsbottom" alt="google plus icon"></a>
+            </article>
+            <p id="copyright">&copy; Totem 2016</p>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

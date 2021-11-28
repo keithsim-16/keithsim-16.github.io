@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Totem.: Showcase</title>
+    <!--
+         Totem showcase web page
+         Filename: showcase.html
+      
+         Author: P1625765 (Sim Shi Jie Keith) 
+         Date: 12 February 2017
+      -->
+    <meta charset="utf-8">
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width">
+    <!-- web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <!-- external style sheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/icons/favicon.ico">
+</head>
+
+<body class="showcase">
+    <!-- nav bar -->
+    <header>
+        <h1>
+            <a href="index.html"><img src="images/icons/totemjap.jpg" alt="totemicon"></a>
+         </h1>
+    </header>
+    <nav class="sitenavigation">
+        <div class="navigation-menu-button">
+            <img src="images/menu.png" alt="show navigation">
+        </div>
+        <ul>
+            <li><a class="home" href="index.html">HOME</a></li>
+            <li><a class="shop" href="shop.html">SHOP</a></li>
+            <li><a class="workshop" href="underconstruction.html">WORKSHOP</a></li>
+            <li><a class="showcase" href="showcase.html">SHOWCASE</a></li>
+            <li><a class="about" href="about.html">ABOUT</a></li>
+        </ul>
+    </nav>
+    <!-- current page indicator -->
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <div class="container">
+        <img src="images/showcase/showcasebanner.jpg" id="contactbanner" alt="showcase banner">
+        <p class="showcasefont">This is a gallery of all our products, past and present</p>
+        <!-- grid layout -->
+        <div class="grid">
+            <div class="item">
+                <img src="images/showcase/1.jpeg" width="259" height="392" alt="showcase image">
+            </div>
+            <div class="item" id="im1">
+                <img src="images/showcase/3.jpg" width="708" height="393" alt="showcase image">
+            </div>
+            <div class="item">
+                <img src="images/showcase/12.jpg" width="756" height="393" alt="showcase image">
+            </div>
+            <div class="item">
+                <img src="images/showcase/2.jpg" width="281" height="425" alt="showcase image">
+            </div>
+            <div class="item">
+                <img src="images/showcase/4.jpg" width="600" height="425" alt="showcase image">
+            </div>
+            <div class="item">
+                <img src="images/showcase/5.jpg" width="600" height="425" alt="showcase image">
+            </div>
+            <div class="item">
+                <img src="images/showcase/6.jpg" width="949" height="566" alt="showcase image">
+            </div>
+            <div class="item">
+                <img src="images/showcase/7.jpg" width="800" height="569" alt="showcase image">
+            </div>
+            <div class="item">
+                <img src="images/showcase/8.jpeg" width="310" height="455" alt="showcase image">
+            </div>
+            <div class="item">
+                <img src="images/showcase/9.jpg" width="691" height="455" alt="showcase image">
+            </div>
+            <div class="item">
+                <img src="images/showcase/OPTIMIZED%205.jpg" width="640" height="455" alt="showcase image">
+            </div>
+            <div class="item">
+                <img src="images/showcase/OPTIMIZED-1.jpg" width="565" height="658" alt="showcase image">
+            </div>
+            <div class="item">
+                <img src="images/showcase/onrock.jpeg" width="929" height="658" alt="showcase image">
+            </div>
+        </div>
+        <!--row grid jquery-->
+        <script src="js/jquery.row-grid.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                /* Start rowGrid.js */
+                $(".grid").rowGrid({
+                    itemSelector: ".item",
+                    minMargin: 10,
+                    maxMargin: 25,
+                    firstItemClass: "first-item"
+                });
+            });
+        </script>
+        <!-- footer bar -->
+        <footer>
+            <figure class="col1" id="footericon">
+                <a href="index.html"><img src="images/footer2.jpg" id="footerlogo" alt="footer logo"></a>
+            </figure>
+            <article class="col1">
+                <h2 class="footerbottom">Also on TOTEM.</h2>
+                <a href="index.html" class="alsoon firsticon home">HOME</a>
+                <a href="contact.html" class="alsoon contact">CONTACT</a>
+                <a href="https://goo.gl/forms/05lJKj7jDy2lDF0o1" target="_blank" class="alsoon">FEEDBACK</a>
+                <h2 class="footerbottom">Follow TOTEM.</h2>
+                <a href="mailto:totemu.design@gmail.com" target="_blank"><img src="images/icons/email.png" class="iconsbottom firsticon" alt="email icon"></a>
+                <a href="http://www.instagram.com/" target="_blank"><img src="images/icons/instagram.png" class="iconsbottom" alt="instagram icon"></a>
+                <a href="http://www.twitter.com/" target="_blank"><img src="images/icons/twitter%20(1).png" class="iconsbottom" alt="twitter icon"></a>
+                <a href="http://www.facebook.com/" target="_blank"><img src="images/icons/facebook.png" class="iconsbottom" alt="facebook icon"></a>
+                <a href="https://plus.google.com/" target="_blank"><img src="images/icons/google-plus.png" class="iconsbottom" alt="google plus icon"></a>
+            </article>
+            <p id="copyright">&copy; Totem 2016</p>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

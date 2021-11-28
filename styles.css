@@ -1,0 +1,508 @@
+/* reset styles */
+
+html {
+    font-size: 12px;
+}
+
+a,
+article,
+body,
+div,
+footer,
+header,
+h1,
+h2,
+h3,
+nav,
+p,
+li {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* body */
+
+body {
+    font-family: 'Raleway', 'Roboto Condensed', sans-serif;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+header {
+    padding-top: 1%;
+    width: 80%;
+    float: left;
+}
+
+header img {
+    width: 45%;
+}
+
+header h1 {
+    text-align: center;
+}
+
+
+/* site navigation bar */
+
+nav.sitenavigation {
+    width: 10%;
+    padding: 4.5% 5%;
+    float: right;
+    position: relative;
+    text-align: center;
+}
+
+div.navigation-menu-button {
+    float: right;
+}
+
+div.navigation-menu-button img {
+    width: 100%;
+}
+
+nav.sitenavigation ul {
+    padding: 0 0;
+    text-align: center;
+    display: none;
+    background: #132a31;
+    position: absolute;
+    right: 24%;
+    top: 75%;
+    z-index: 2;
+}
+
+nav.sitenavigation li {
+    margin: 0.3em 1.5em;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 1.4em;
+    position: relative;
+}
+
+a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #FFFFFF;
+}
+
+.home a.home,
+.shop a.shop,
+.workshop a.workshop,
+.showcase a.showcase,
+.about a.about,
+.contact a.contact {
+    text-decoration: underline;
+}
+
+
+/* fotorama slideshow css */
+
+.fotorama {
+    clear: left;
+}
+
+
+/* home page content */
+
+#featurespanel {
+    color: #FFFFFF;
+    clear: left;
+    text-align: center;
+    background-color: #161616;
+}
+
+#featurespanel h2,
+#newspanel h2 {
+    text-decoration: underline;
+    padding: 1%;
+    font-size: 250%;
+}
+
+#featurespanel p,
+#newspanel p {
+    font-size: 130%;
+}
+
+#featurespanel p:first-of-type,
+#newspanel p:first-of-type {
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.panelimages {
+    vertical-align: top;
+    margin: 2% 3.4%;
+    width: 27.5em;
+    display: inline-block;
+}
+
+.panelimages img {
+    width: 80%;
+}
+
+.border,
+.bordernews {
+    border: solid 2px;
+    display: block;
+    width: 70px;
+    margin: 25px auto;
+}
+
+.border {
+    border-color: #FFFFFF;
+}
+
+.bordernews {
+    border-color: #161616;
+}
+
+#newspanel {
+    background-color: #f0f0f0;
+    clear: left;
+    text-align: center;
+}
+
+.newsarticle {
+    font-weight: bold;
+}
+
+
+/* Shop Page Main Content */
+
+#wrap h1 {
+    font-size: 3em;
+}
+
+#wrap ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center
+}
+
+#wrap ul li {
+    background-clip: padding-box;
+    /*background:url("bgs.png") repeat-x scroll;*/
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 1.1em;
+}
+
+#wrap ul li div {
+    height: 25px;
+    padding-top: 12px;
+    margin-bottom: 2em;
+}
+
+#wrap ul li {
+    cursor: pointer;
+}
+
+.name,
+.price {
+    font-size: 115%;
+    font-weight: bold;
+}
+
+button {
+    background: none repeat scroll 0 0 #FF6166;
+    color: #FFFFFF;
+    border: medium none;
+    font-size: 1.1em;
+    margin-right: -14px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.cart-total {
+    background: #E8E8E8
+}
+
+.shopp,
+.cart-total {
+    border: solid #ccc 1px;
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-bottom: 3px;
+}
+
+div.shopp div.label {
+    width: 130px;
+    float: left;
+}
+
+div.shopp div.shopp-price {
+    width: 70px;
+    float: left;
+}
+
+.quantity {
+    float: left;
+    margin-top: -3px;
+    width: 20px;
+}
+
+img.remove {
+    float: right;
+    cursor: pointer;
+}
+
+.cart-total b {
+    width: 130px;
+}
+
+
+/* About Page Main Content */
+
+#start,
+#believe {
+    padding: 2% 2%;
+    font-size: 150%;
+}
+
+#start h2,
+#believe h2 {
+    font-size: 160%;
+}
+
+#start {
+    background-color: #161616;
+    color: #FFFFFF;
+}
+
+#believe {
+    background-color: #f0f0f0
+}
+
+.totem {
+    font-weight: bold;
+}
+
+
+/* Contact Page Main Content */
+
+#contactbanner {
+    width: 100%;
+}
+
+textarea {
+    width: 70%;
+}
+
+#name1,
+#email1 {
+    display: block;
+}
+
+.contactinfo,
+.suggestquestion {
+    margin-top: 2%
+}
+
+#contact {
+    text-align: center;
+    font-size: 190%;
+    background-color: #f0f0f0;
+}
+
+#feedback {
+    margin-top: 1%;
+}
+    /* submit button */
+#submit {
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #FF6166;
+    color: #FFFFFF;
+    font-size: 0.9em;
+    width: 100%;
+    margin: .5em 0;
+    border: none;
+}
+
+
+/* results page */
+
+#contentstart {
+    clear: left;
+    font-size: 140%;
+    text-align: center;
+}
+
+
+/* Showcase Page Main Content */
+
+.showcasefont {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1%
+}
+
+body {
+    overflow-y: scroll;
+}
+
+
+    /* clearfix because of floats */
+
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+.item {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.item img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: bottom;
+}
+
+.first-item {
+    clear: both;
+}
+
+
+    /* remove margin bottom on last row */
+
+.last-row,
+.last-row ~ .item {
+    margin-bottom: 0;
+}
+
+
+/* footer section */
+
+footer {
+    clear: left;
+    background: #132a31;
+}
+
+.col1 {
+    line-height: 2em;
+    font-size: 1.3em;
+    margin: 0 4%;
+    display: block;
+    text-align: center;
+}
+
+.alsoon {
+    margin: 0 1.5em;
+}
+
+#footerlogo {
+    display: none;
+}
+
+.footerbottom {
+    color: #FFFFFF;
+    margin-bottom: .5em;
+}
+
+.iconsbottom {
+    margin: 0 1em;
+}
+
+#copyright {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: .5em;
+}
+
+
+/* media screens */
+
+@media screen and (min-width: 885px) {
+    /* header */
+    header {
+        float: none;
+        width: auto;
+    }
+    header img {
+        width: 12em;
+    }
+    /* NAV */
+    div.navigation-menu-button {
+        display: none;
+    }
+    nav.sitenavigation {
+        box-shadow: 0px 2px 10px #888888;
+        background-color: #132a31;
+        width: 100%;
+        padding: 0;
+    }
+    nav.sitenavigation ul {
+        border: none;
+        width: 100%;
+        display: block;
+        position: static;
+        text-align: center;
+    }
+    nav.sitenavigation li {
+        display: inline-block;
+        position: relative;
+        right: 0%;
+    }
+    /* shop */
+    #wrap {
+        float: left;
+        width: 70%;
+    }
+    #left_bar {
+        float: right;
+        width: 30%;
+    }
+    /* showcase */
+    .showcasefont {
+        font-size: 3em;
+    }
+    /*contact */
+    #name1,
+    #email1 {
+        display: inline-block;
+    }
+    textarea {
+        width: 90%;
+    }
+    /* footer */
+    #footericon {
+        position: relative;
+        top: 1.4em;
+        margin-left: 12.5%;
+    }
+    .col1 {
+        text-align: left;
+        margin: 0.5% 6.1%;
+        display: inline-block;
+    }
+    #footerlogo {
+        display: block;
+    }
+    .firsticon {
+        margin-left: 0;
+    }
+}
